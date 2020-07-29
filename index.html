@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 <link href="index.css" rel="stylesheet" type="text/css">
-
+<!-- straks 2de movie 3de box en js -->
 <header>
    <p>NFLIX</p>
 </header>
 <div class="container">
-<!--
- <section id="row1">
+
+ <section class="hidden" id="row1">
       <h1 class="sectionTitle">Continue Watching for Username</h1>
       
 
@@ -15,34 +15,41 @@
          <ul class="img-list">
             <li class="image">
                <a href="#">
-                  <img alt="placeholder" id="box1" src="https://via.placeholder.com/280x150" width="280" height="150" /> </a>
-                  <span class="text-content"><span>Title Here...<br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><i class="fa fa-chevron-down" onclick="openNav()" aria-hidden="true">test</i></span></span>
+                  <img alt="placeholder" id="box1.1" src="https://via.placeholder.com/280x150" width="280" height="150" /> </a>
+                  <span class="text-content"><span>Title Here...<br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><i class="fa fa-chevron-down" onclick="openNav1_1()" aria-hidden="true"></i></span></span>
             </li>
-			<div id="mySidenav" class="sidenav">
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div id="mySidenav1.1" class="sidenav">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav1_1()">&times;</a>
          <a href="#">Movie 1</a>
 
       </div>   
 			 
             <li class="image">
                <a href="#">
-                  <img alt="placeholder" src="https://via.placeholder.com/280x150" width="280" height="150" />
-                  <span class="text-content"><span>Title e...<br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><br><i class="fa fa-chevron-down" onclick="openNav()" aria-hidden="true"></i></span></span>
+                  <img id="box1.2" alt="placeholder" src="https://via.placeholder.com/280x150" width="280" height="150" />
+                  <span class="text-content"><span>Title e...<br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><br><i class="fa fa-chevron-down" onclick="openNav1_2()" aria-hidden="true"></i></span></span>
                </a>
             </li>
+			 <div id="mySidenav1.2" class="sidenav">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav1_2()">&times;</a>
+         <a href="#">Movie 1</a>
+			 </div>
 
             <li class="image">
                <a href="#">
-                  <img alt="placeholder" src="https://via.placeholder.com/280x150" width="280" height="150" />
-                  <span class="text-content"><span>Title Here...<br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><br><i class="fa fa-chevron-down" aria-hidden="true"></i></span></span>
+                  <img id="box1.3" alt="placeholder" src="https://via.placeholder.com/280x150" width="280" height="150" />
+                  <span class="text-content"><span>Title Here...<br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><br><i onclick="openNav1_3" class="fa fa-chevron-down" aria-hidden="true"></i></span></span>
                </a>
             </li>
-
+				 <div id="mySidenav1.3" class="sidenav">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav1_3()">&times;</a>
+         <a href="#">Movie 1</a>
+				 </div>
          </ul>
 
       </div>
 
-   </section> -->
+   </section> 
 
   <section id="row2">
       <h1 class="sectionTitle">TV Shows</h1>
@@ -72,10 +79,13 @@
 				
             <li class="image">
                <a href="#">
-                  <img alt="placeholder" src="https://via.placeholder.com/280x150" width="280" height="150" />
-                  <span class="text-content"><span>Title Here...<br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><br><i class="fa fa-chevron-down" aria-hidden="true"></i></span></span>
+                  <img id="box2.3" alt="placeholder" src="https://via.placeholder.com/280x150" width="280" height="150" />
+                  <span class="text-content"><span>Title Here...<br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><br><i onclick="openNav2_3()" class="fa fa-chevron-down" aria-hidden="true"></i></span></span>
                </a>
             </li>
+			 <div id="mySidenav2.3" class="sidenav">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav2_3()">&times;</a>
+				<a href="#">Movie 2</a> </div>
 
          </ul>
       </div>
@@ -85,26 +95,35 @@
       <ul class="img-list">
          <li class="image">
             <a href="#">
-               <img alt="placeholder" src="https://via.placeholder.com/280x150" width="280" height="150" />
-               <span class="text-content"><i class="fa fa-chevron-up" aria-hidden="true"></i><br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><br>Title Here...</span>
+               <img id="box3.1" alt="placeholder" src="https://via.placeholder.com/280x150" width="280" height="150" />
+               <span class="text-content"><span>Title Here...<br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><br><i onclick="openNav3_1()" class="fa fa-chevron-down" aria-hidden="true"></i></span></span>
             </a>
          </li>
+			 <div id="mySidenav3.1" class="sidenav">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav3_1()">&times;</a>
+				<a href="#">Movie 2</a> </div>
 
          <li class="image">
             <a href="#">
-               <img alt="placeholder" src="https://via.placeholder.com/280x150" width="280" height="150" />
-               <span class="text-content"><i class="fa fa-chevron-up" aria-hidden="true"></i><br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><br>Title Here...</span>
+               <img id="box3.2" alt="placeholder" src="https://via.placeholder.com/280x150" width="280" height="150" />
+               <span class="text-content"><span>Title Here...<br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><br><i onclick="openNav3_2()" class="fa fa-chevron-down" aria-hidden="true"></i></span></span>
 			 </a>
          </li>
+			 <div id="mySidenav3.2" class="sidenav">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav3_2()">&times;</a>
+				<a href="#">Movie 2</a> </div>
 
          <li class="image">
             <a href="#">
-               <img alt="placeholder" src="https://via.placeholder.com/280x150" width="280" height="150" />
-               <span class="text-content"><i class="fa fa-chevron-up" aria-hidden="true"></i><br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><br>Title Here...</span>
+               <img id="box3.3" alt="placeholder" src="https://via.placeholder.com/280x150" width="280" height="150" />
+               <span class="text-content"><span>Title Here...<br><br><i class="fa fa-4x  fa-play-circle-o"></i><br><br><i onclick="openNav3_3()" class="fa fa-chevron-down" aria-hidden="true"></i></span></span>
             </a>
          </li>
+			 <div id="mySidenav3.3" class="sidenav">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav3_3()">&times;</a>
+				<a href="#">Movie 2</a> </div>
 
       </ul>
    </div>
 </div>
-<script type="text/javascript" src="index.js">alert("Nflix.js loaded")</script>
+<script type="text/javascript" src="nav.js"></script>
